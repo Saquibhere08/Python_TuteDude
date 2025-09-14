@@ -1,0 +1,16 @@
+#Appending data to an file
+file1=open('my_files.txt','w')
+writing_file =file.write('Hello')
+print(writing_file)
+file1.close()
+
+
+file1=open('my_files.txt','a')
+appending_file=file1.write('Welcome to world')
+print(appending_file)
+file1.close()
+
+file1=open('my_files.txt','r')
+reading_file =file1.read()
+print(reading_file)
+file1.close()

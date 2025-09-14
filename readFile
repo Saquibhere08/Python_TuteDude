@@ -1,0 +1,18 @@
+#Method1 
+file1=open('my_file.txt','r')
+#directory =specify the location
+#mode = r,w,a,r+
+readingFile1= file1.read()
+readingFile2= file1.readline()
+readingFile3= file1.readlines()
+print(reading_file1)
+print(reading_file2)
+print(reading_file3)
+
+file.close()
+
+#Method2
+with open('my_files.txt','w')as file1:
+    #statments
+    reading_file =file1.read()
+    print(reading_file)

@@ -1,0 +1,11 @@
+# r+ write and read
+
+file = open('my_files.txt','r+')
+writing_file=file.write('Saquib')
+print(writing_file)
+file.close()
+
+file = open('my_files.txt','r+')
+reading_file=file.read()
+print(reading_file)
+file.close()
